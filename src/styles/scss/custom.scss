@@ -42,7 +42,17 @@ aside{
   }
   i{
     font-size: 25px;
-    padding: 0 5px;
+    padding: 0 10px;
+
+    @media #{$small-only} {
+      font-size: 60px;
+    }
+  }
+
+  .social{
+    @media #{$small-only}{
+      text-align: center;
+    }
   }
 }
 
