@@ -1,0 +1,41 @@
+{
+  "name": "captnsassypantz.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captnsassypantz/captnsassypantz.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/captnsassypantz/captnsassypantz.github.io/issues"
+  },
+  "homepage": "https://github.com/captnsassypantz/captnsassypantz.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-main-bower-files": "^1.6.1",
+    "gulp-minify": "0.0.14",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uncss": "^1.0.6",
+    "gulp-useref": "^3.1.2",
+    "node-normalize-scss": "^1.4.0",
+    "wiredep": "^4.0.0"
+  },
+  "dependencies": {
+    "masonry-layout": "^4.1.1",
+    "normalize.css": "^4.2.0"
+  }
+}

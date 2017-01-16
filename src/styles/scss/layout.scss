@@ -1,0 +1,41 @@
+#logo{
+  max-width: 80px;
+}
+
+
+.make{
+  background-image: url('imgs/cork-wallet.png');
+  color: white;
+  @include background(center, contain, repeat);
+
+  .row{
+    padding: 15px 20px 30px;
+  }
+
+  &> div > a{
+
+    @include flex_align();
+    height: 160px;
+  }
+
+  &> div > a > .bg_img{
+    @include background(inherit, cover, no-repeat);
+    background-origin: content-box;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    // @include make-sm-column-offset(.2);
+  }
+
+}
+
+#relax .bg_img{
+  background-image: url('imgs/relax.png');
+}
+
+#learn .bg_img{
+  background-image: url('imgs/learn.png');
+}
+
+#explore .bg_img{
+  background-image: url('imgs/relax.png');
+}

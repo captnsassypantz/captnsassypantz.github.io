@@ -1,0 +1,20 @@
+{
+  "name": "captnsassypantz.github.io",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "jess <captnsassypantz@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/captnsassypantz/captnsassypantz.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "^5.5.3"
+  }
+}

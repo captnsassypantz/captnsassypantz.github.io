@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:700|Mada:300,400,900');
+
+$gray: #dcdcdc;
+$red: #bf2614;
+
+body{
+  font-family: 'Mada', sans-serif;
+  font-weight: 300;
+}
+
+a{
+  color: $red;
+}
+
+h2,h3,h4,h5,h6{
+  font-family: 'Mada', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $gray;
+  font-weight: 900;
+  font-size: 20px;
+}
+h1{
+  font-family: 'Frank Ruhl Libre', sans-serif;
+  color: $red;
+}
+h4 {
+  text-transform: none;
+  font-weight: normal;
+  color: black;
+}
+
+.main-container{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+aside{
+  li{
+    list-style-type: none;
+  }
+  i{
+    font-size: 25px;
+    padding: 0 5px;
+  }
+}
+
+.letterhead{
+  position: relative;
+      float: right;
+  div.bg{
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 80% 89%, 20% 75%);
+  clip-path: polygon(20% 0%, 80% 0%, 80% 89%, 20% 75%);
+  background-color: $red;
+  height: 190px;
+
+  }
+  span{
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 120px;
+    line-height: 130px;
+    text-align: center;
+    z-index: 4;
+    color: white;
+  }
+}
+
+$font-path: "../src/fonts/foundation-icons/foundation-icons";
+@font-face {
+  font-family: "foundation-icons";
+  src: url("#{$font-path}.eot");
+  src: url("#{$font-path}.eot?#iefix") format("embedded-opentype"),
+       url("#{$font-path}.woff") format("woff"),
+       url("#{$font-path}.ttf") format("truetype"),
+       url("#{$font-path}.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "../src/fonts/foundation-icons/foundation-icons.css";
+
+footer{
+  padding: 20px 0;
+  font-size: 20px;
+}
